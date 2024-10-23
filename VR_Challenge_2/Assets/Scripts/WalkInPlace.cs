@@ -13,9 +13,9 @@ public class WalkInPlaceLocomotion : MonoBehaviour
     Vector3 velocity = Vector3.zero; // Velocity variable to manage movement
 
     [SerializeField] float speed = 4;
-    [SerializeField] float acceleration = 5; // Acceleration factor
-    [SerializeField] float deceleration = 5; // Deceleration factor
-    [SerializeField] float minVelocity = 0.1f; // Minimum velocity threshold
+    [SerializeField] float acceleration = 2; // Acceleration factor
+    [SerializeField] float deceleration = 7; // Deceleration factor
+    [SerializeField] float minVelocity = 0.3f; // Minimum velocity threshold
 
     // Start is called before the first frame update
     void Start()
